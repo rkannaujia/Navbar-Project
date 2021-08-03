@@ -1,16 +1,19 @@
 *
 {
-    padding: 0;
-    margin: 0;
+    
     box-sizing: border-box;
 }
 body
 {
-background-image: url(nature.jpg);
+background-image: url(./nature.jpg);
+min-height: 100vh;
 background-size: cover;
-background-position: center;
-
+background-position: center center ;
+background-repeat: no-repeat;
 font-family: sans-serif;
+align-items: center;
+margin: 0;
+width: 100%;
 }
 .menu-bar
 {
@@ -87,6 +90,7 @@ margin-left: 140px;
 background: rgb(0, 100, 0);
 
 }
+
 
 
 
